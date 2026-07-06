@@ -1,12 +1,11 @@
-import React from 'react'
+import Card from "./components/Card.jsx";
+import Navbar from './components/Navbar.jsx';
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello Guys its me Srushti</h1>
-      <h3>Content Creator</h3>
-      <h3>Turning real life chaos into content</h3>
-      <button>Follow</button>
+    <div >
+      <Card />
+      <Navbar />
     </div>
   )
 }
