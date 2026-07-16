@@ -9,4 +9,5 @@ let Students = [{name: "Alice", age: 21, isPlaced: false},{name: "Bob", age: 23,
 
 Students.forEach(student =>{
     describeStudent(student.name, student.age, student.isPlaced);
+    
 })
